@@ -136,8 +136,9 @@ Hasil kompresi misalnya menjadi app.zip
 
    - klik Next
 
-9. klik Create
+9. Setelah melihat review, klik Create
 
+---
 
 ## III. Pengujian
 ##### Gunakan browser
