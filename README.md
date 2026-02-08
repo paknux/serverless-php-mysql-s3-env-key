@@ -94,6 +94,11 @@ Hasil kompresi misalnya menjadi app.zip
 
    Isi Application information dan Application name misal dengan nama <b>tokoorange</b>
 
+3. Klik create
+
+
+4. Klik create new environment
+
 
 Choose a database creation method : Full Configuration
 
