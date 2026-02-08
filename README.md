@@ -59,9 +59,10 @@ S3 Bucket dapat dibuat dengan Web GUI Management Console seperti biasa,
 ## Persiapan
 
 ### 1. Unduh file dari repo https://github.com/paknux/serverless-php-mysql-s3-env-key.git
-3 file utama yang diperlukan: 
+4 buah file utama yang diperlukan: 
 - index.php
 - composer.json
+- composer.lock
 - .env
 
 ### 2. Edit Environment Variable .env
@@ -81,7 +82,7 @@ AWS_BUCKET=nug-php-mysql-s3-env-key
 
 
 ### 3. Zip (compress) 3 file terebut
-Kompress 3 file tersebut menjadi .zip. Harus .zip, tidak boleh .rar atau format kompresi yang lain. <br>
+Kompress 4 file tersebut menjadi .zip. Harus .zip, tidak boleh .rar atau format kompresi yang lain. <br>
 Hasil kompresi misalnya menjadi app.zip
 
 ---
