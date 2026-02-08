@@ -115,13 +115,6 @@ http://ip_public
 
 ![Hasil Pengujian](img/hasilpengujian.png)
 
-
-##### Pengetesan Environment Variable
-````
-http://ip_public/testenv.php
-````
-
-
 ---
 
 ## IV. Pengembangan
