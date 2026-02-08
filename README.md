@@ -105,8 +105,17 @@ Hasil kompresi misalnya menjadi app.zip
 
    - Application code : Upload your code
       - Local file
+      - Version label : versi
       - klik choose file
          tunjukkan lokasi app.zip
+
+   - klik Next
+
+5. Configure service access 
+   - Service role : LabRole
+   - EC2 instance profile : LabIbstanceProfile
+   - EC2 key pair - optional : vockey
+
 
 Choose a database creation method : Full Configuration
 
