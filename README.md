@@ -99,6 +99,14 @@ Hasil kompresi misalnya menjadi app.zip
 
 4. Klik create new environment
 
+   - Environment tier : biarkan Web server environment
+   - Environment name : tokoorange-env
+   - Platform : PHP
+
+   - Application code : Upload your code
+      - Local file
+      - klik choose file
+         tunjukkan lokasi app.zip
 
 Choose a database creation method : Full Configuration
 
