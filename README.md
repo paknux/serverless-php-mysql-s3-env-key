@@ -78,8 +78,8 @@ AWS_BUCKET=nug-php-mysql-s3-env-key
 
 
 ### 3. Zip (compress) 3 file terebut
-Kompress 3 file tersebut menjadi .zip. Harus .zip. tidak boleh .rar ata format kompresi yang lain
-misal menjadi app.zip
+Kompress 3 file tersebut menjadi .zip. Harus .zip. tidak boleh .rar atau format kompresi yang lain. <br>
+Hasil kompresi misalnya menjadi app.zip
 
 
 
