@@ -55,7 +55,7 @@ S3 Bucket dapat dibuat dengan Web GUI Management Console seperti biasa,
 ## II. Deploy App ke Serverless ELastic Beanstalk
 
 ### Persiapan
-### 1. Unduh dile dari https://github.com/paknux/serverless-php-mysql-s3-env-key.git
+### 1. Unduh file dari repo https://github.com/paknux/serverless-php-mysql-s3-env-key.git
 3 file utama yang diperlukan: 
 - index.php
 - composer.json
@@ -63,6 +63,12 @@ S3 Bucket dapat dibuat dengan Web GUI Management Console seperti biasa,
 
 ### 2. Edit Environment Variable .env
 Environment variable dapat berupa file .env atau dapat merupakan environment dari OS. Editlah file .env dengan aplikasi text editor, sehingga memuat hal berikut ini:
+
+### 3. Zip (compress) 3 file terebut
+Kompress 3 file tersebut menjadi .zip. Harus /zip. tidak boleh .rar ata format kompresi yang lain
+misal menjadi app.zip
+
+
 
 ### .env
 ````
