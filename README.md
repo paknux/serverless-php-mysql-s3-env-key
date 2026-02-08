@@ -63,19 +63,10 @@ S3 Bucket dapat dibuat dengan Web GUI Management Console seperti biasa,
 
 
 
-# Hapus index.html
-sudo rm /var/www/html/index.html
-```
 
-## Langkah 2: Setting Environment Aplikasi
-
-## Environment Variable .env
+2. Edit Environment Variable .env
 Environment variable dapat berupa file .env atau dapat merupakan environment dari OS. 
 Untuk aplikasi Apache2-PHP karena user yang menjalankan adalah www-data maka lebih mudah digunakan file .htaccess atau .env di dalam direktori kerja /var/www/html
-
-`````
-nano /var/www/html/.env
-`````
 
 Isi dari file .env memuat hal berikut ini:
 
