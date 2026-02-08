@@ -106,7 +106,7 @@ Hasil kompresi misalnya menjadi app.zip
 
    - Application code : Upload your code
       - Local file
-      - Version label : versi
+      - Version label : ver
       - klik choose file
          tunjukkan lokasi app.zip
 
