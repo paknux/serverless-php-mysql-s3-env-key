@@ -90,6 +90,19 @@ Hasil kompresi misalnya menjadi app.zip
 
 ---
 
+1. Buka Elastic Beanstalk
+
+2. Klik create application
+
+Isi Application information dan Application name misal dengan nama <h2>tokoorange</h2>
+
+
+Choose a database creation method : Full Configuration
+
+Engine type : MySQL
+
+Templates : Sandbox
+
 ## III. Pengujian
 ##### Gunakan browser
 ````
