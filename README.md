@@ -88,8 +88,6 @@ Hasil kompresi misalnya menjadi app.zip
 
 ## Elastic Beanstalk
 
----
-
 1. Buka Elastic Beanstalk
 
 2. Klik create application
