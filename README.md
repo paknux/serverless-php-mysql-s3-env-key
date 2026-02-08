@@ -52,31 +52,12 @@ S3 Bucket dapat dibuat dengan Web GUI Management Console seperti biasa,
 
 ---
 
-## II. Deploy App ke EC2
+## II. Deploy App ke Serverless ELastic Beanstalk
 
-## Langkah 1: Persiapan dan Instalasi Server
-Jalankan perintah berikut pada terminal EC2 Ubuntu 24.04 untuk menginstal Apache, PHP, dan dependensi lainnya:
+### Persiapan
+unduh dile dari https://github.com/paknux/serverless-php-mysql-s3-env-key.git
 
-```bash
-# Update sistem
-sudo apt update
 
-# Install Apache, PHP, dan ekstensi yang diperlukan
-sudo apt install -y apache2 php-mysql php php-cli php-curl php-xml php-mbstring libapache2-mod-php unzip composer
-
-# Bersihkan direktori web dan Clone Repo
-rm -rf /var/www/html/*
-git clone https://github.com/paknux/php-mysql-s3-env-key.git /tmp/repo
-cp -r /tmp/repo/* /var/www/html/
-rm -rf /tmp/repo
-
-# Install AWS SDK for PHP di direktori project
-cd /var/www/html
-composer require aws/aws-sdk-php vlucas/phpdotenv
-
-# Atur izin folder agar web server bisa menulis file
-sudo chown -R www-data:www-data /var/www/html
-sudo chmod -R 777 /var/www/html
 
 # Hapus index.html
 sudo rm /var/www/html/index.html
