@@ -116,12 +116,28 @@ Hasil kompresi misalnya menjadi app.zip
    - EC2 instance profile : LabIbstanceProfile
    - EC2 key pair - optional : vockey
 
+   - klik Next
 
-Choose a database creation method : Full Configuration
+6. Set up networking, database, and tags - optional
+   tidak ada yang perlu diubah
 
-Engine type : MySQL
+   - klik Next
 
-Templates : Sandbox
+
+7. Configure instance traffic and scaling - optional 
+   - EC2 security groups : pilih yang ijinkan port 80 443
+
+   - klik Next
+
+
+8. Configure updates, monitoring, and logging - optional 
+   - Health reporting : Basic
+   - Managed updates : guang centangnya (Disable) 
+
+   - klik Next
+
+9. klik Create
+
 
 ## III. Pengujian
 ##### Gunakan browser
