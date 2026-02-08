@@ -64,7 +64,7 @@ S3 Bucket dapat dibuat dengan Web GUI Management Console seperti biasa,
 ### 2. Edit Environment Variable .env
 Environment variable dapat berupa file .env atau dapat merupakan environment dari OS. Editlah file .env dengan aplikasi text editor, sehingga memuat hal berikut ini:
 
-#### .env
+### .env
 ````
 DB_HOST=database-1.ccqnofwkwmzs.us-east-1.rds.amazonaws.com
 DB_PORT=3306
