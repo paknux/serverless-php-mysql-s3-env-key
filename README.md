@@ -64,12 +64,6 @@ S3 Bucket dapat dibuat dengan Web GUI Management Console seperti biasa,
 ### 2. Edit Environment Variable .env
 Environment variable dapat berupa file .env atau dapat merupakan environment dari OS. Editlah file .env dengan aplikasi text editor, sehingga memuat hal berikut ini:
 
-### 3. Zip (compress) 3 file terebut
-Kompress 3 file tersebut menjadi .zip. Harus /zip. tidak boleh .rar ata format kompresi yang lain
-misal menjadi app.zip
-
-
-
 ### .env
 ````
 DB_HOST=database-1.ccqnofwkwmzs.us-east-1.rds.amazonaws.com
@@ -81,6 +75,13 @@ DB_PASS=P4ssw0rd
 AWS_REGION=us-east-1
 AWS_BUCKET=nug-php-mysql-s3-env-key
 ````
+
+
+### 3. Zip (compress) 3 file terebut
+Kompress 3 file tersebut menjadi .zip. Harus .zip. tidak boleh .rar ata format kompresi yang lain
+misal menjadi app.zip
+
+
 
 ---
 
