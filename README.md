@@ -1,4 +1,4 @@
-## Serverless Elastic Beanstalk (PHP), RDS (MySQL), dan S3 untuk Aplikasi Data Karyawan dengan Environment Variable dan S3 Key 
+## Serverless Elastic Beanstalk (PHP), RDS (MySQL), dan S3 untuk Aplikasi Data Karyawan dengan S3 SDK (tanpa Key, tanpa Secret, tanpa Token) 
 #### Menggunakan solusi Serverless  Elastic Beanstalk di lingkungan **AWS Academy**.
 ---
 
@@ -44,7 +44,7 @@ S3 Bucket dapat dibuat dengan Web GUI Management Console seperti biasa,
    - Bucket Type : General purpose
    - Bucket Name : nug-php-mysql-s3-env-key
    - Object Ownership
-        - pilih : <h2> ACLs enabled </h2>
+        - bebas pilih : <h2> ACLs disabled </h2> atau <h2> ACLs enabled </h2>
    - Block Public Access settings for this bucket
    - pastikan Block all public access TIDAK DICENTANG
    - jangan lupa CENTANG acknowledge that the current settings
