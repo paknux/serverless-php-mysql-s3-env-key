@@ -62,10 +62,7 @@ S3 Bucket dapat dibuat dengan Web GUI Management Console seperti biasa,
 - .env
 
 ### 2. Edit Environment Variable .env
-Environment variable dapat berupa file .env atau dapat merupakan environment dari OS. 
-Untuk aplikasi Apache2-PHP karena user yang menjalankan adalah www-data maka lebih mudah digunakan file .htaccess atau .env di dalam direktori kerja /var/www/html
-
-Isi dari file .env memuat hal berikut ini:
+Environment variable dapat berupa file .env atau dapat merupakan environment dari OS. Editlah file .env dengan aplikasi text editor, sehingga memuat hal berikut ini:
 
 ````
 DB_HOST=database-1.ccqnofwkwmzs.us-east-1.rds.amazonaws.com
